@@ -5,7 +5,7 @@ OpenCV opencv;
 Rectangle[] faces;
 
 void setup() {
-  opencv = new OpenCV(this, "test.jpg");
+  opencv = new OpenCV(this, "four.jpg");
   size(opencv.width, opencv.height);
 
   opencv.loadCascade(OpenCV.CASCADE_FRONTALFACE);  
